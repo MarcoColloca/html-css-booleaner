@@ -5,6 +5,9 @@
 
 }
 
+ul{
+    padding: 0;
+}
 
 header{
     background-color: rgba(0, 153, 255, 1);
@@ -42,4 +45,18 @@ header{
 
 .images-main{
     margin-top: 5%;
+}
+
+.photo-description{
+    font-size: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-text{
+    font-size: 100%;
+}
+
+.main-text-focus{
+    background-color: yellow;
 }
