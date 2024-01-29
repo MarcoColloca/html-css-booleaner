@@ -1,0 +1,45 @@
+.header-img, main, footer{
+    margin-left: 10%; 
+    margin-bottom: 0%;
+    margin-right: 10%;
+
+}
+
+
+header{
+    background-color: rgba(0, 153, 255, 1);
+    background-image: url(../img/pattern.png);
+ 
+}
+
+.header-img {
+    width: 30%;
+    margin-top: 10%; 
+
+}
+
+#main-title{
+    font-size: 300%;
+    margin-bottom: 0;
+
+}
+
+.main-subtitle-p1, .main-subtitle-p2{
+    font-size: 200%;
+}
+
+.main-subtitle-p1, .main-date{
+    color: rgb(99, 99, 99);
+}
+
+.main-subtitle-p2{
+    color: rgb(0, 140, 255);
+}
+
+.main-date{
+    font-size: 150%;
+}
+
+.images-main{
+    margin-top: 5%;
+}
