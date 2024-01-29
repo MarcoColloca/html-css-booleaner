@@ -2,7 +2,6 @@
     margin-left: 10%; 
     margin-bottom: 0%;
     margin-right: 10%;
-
 }
 
 ul{
@@ -62,8 +61,14 @@ header{
     background-color: yellow;
 }
 
+table{
+    padding: 0;
+    border-collapse: collapse;
+}
+
 .table-head{
     background-color: rgb(0, 140, 255);
+    text-align: left;
 }
 
 .row-odd{
@@ -74,6 +79,28 @@ header{
     background-color: rgba(255, 255, 255, 1);
 }
 
+.row-odd, .row-even{
+    height: 10px;
+}
+
 td{
-    height: 50%;
+    width: 30%;
+}
+
+.footer-img-1{
+    background-image: url(../img/monitor.jpg);
+}
+
+.footer-img-2{
+    background-image: url(../img/graph.jpg);
+
+}
+
+.footer-img-1, .footer-img-2{
+    width: 300px;
+    height: 300px;
+    color: white;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
