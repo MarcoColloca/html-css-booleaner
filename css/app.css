@@ -49,8 +49,8 @@ header{
     margin-bottom: 0;
 }
 
-.list, .main-text, .images-main{
-    margin-top: 5%;
+.list, .main-text, .images-main, table{
+    margin-top: 2%;
 }
 
 .main-text{
@@ -97,7 +97,6 @@ footer{
 
 .footer-img-2{
     background-image: url(../img/graph.jpg);
-
 }
 
 .footer-img-1, .footer-img-2{
@@ -106,5 +105,15 @@ footer{
     color: white;
     background-repeat: no-repeat;
     margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.footer-text{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+h2{
+    padding: 0;
     margin-bottom: 0%;
 }
